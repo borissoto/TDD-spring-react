@@ -1,3 +1,9 @@
 spring:
   application:
     name: hoaxify
+  datasource:
+    generate-unique-name: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
